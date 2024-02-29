@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lately Fit</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/895b8520ea.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="test.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">      </head>
+
+    <body>
+      <header>
+        <a href="#" class="brand">LatelyFit</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+          <div class="navigation-items">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Explore</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </header>
+
+      <section class="home">
+        <div class="content">
+          <h1>Train like a beast,<br><em>look like a Beauty.</em></h1>
+          <p>Welcome to your new favorite addiction – Fitness!</p>
+          <a href="#">Let's Go!</a>
+        </div>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook -f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+
+        <video class="video-play" src="media/yoga_trim.mp4" autoplay muted></video>
+      </section>
+      
+      <script type="text/javascript">
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+
+
+        menuBtn.addEventListener("click", () => {
+          menuBtn.classList.toggle("active");
+          navigation.classList.toggle("active");
+
+        });
+      </script>
+    </body>
+</html>
